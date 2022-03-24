@@ -3,7 +3,6 @@ package com.modernjava.streams;
 import com.modernjava.funcprogramming.Instructor;
 import com.modernjava.funcprogramming.Instructors;
 
-import java.sql.SQLOutput;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;

@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 public class ParallelStreamExample {
     public static void main(String[] args) {
         System.out.println("Sum Sequential: " + sumSequentialStream());
-        System.out.println("Sum Parallel: " + sumParallelStream());
+        System.out.println("Sum Parallel:   " + sumParallelStream());
 
     }
 

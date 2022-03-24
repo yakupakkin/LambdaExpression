@@ -1,7 +1,5 @@
 package com.modernjava.funcprogramming;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.List;
 import java.util.function.BiConsumer;
 
@@ -25,8 +23,8 @@ public class BiConsumerExample2 {
         //print out name and gender of all instructors who teaches online
         System.out.println("----------------------");
         instructors.forEach(instructor -> {
-             if (instructor.isOnlineCourses())
-                 biConsumer.accept(instructor.getName(), instructor.getGender());
+             if (instructor.yearsOfExperience > 5 && !instructor.isOnlineCourses())
+                 biConsumer1.accept(instructor.getName(), instructor.getCourses());
         });
 
 

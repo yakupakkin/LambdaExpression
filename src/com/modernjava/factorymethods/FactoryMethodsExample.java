@@ -5,7 +5,7 @@ import java.util.*;
 public class FactoryMethodsExample {
     public static void main(String[] args) {
         //How we used to create unmodifiable list pre Java 9
-        List<String> names = new ArrayList(); 
+        List<String> names = new ArrayList<String>(); 
         names.add("Syed"); 
         names.add("Mike"); 
         names.add("Jenny"); 

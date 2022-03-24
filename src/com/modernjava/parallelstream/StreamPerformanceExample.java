@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 
 public class StreamPerformanceExample {
     public static void main(String[] args) {
-        int loop = 20;
+        int loop = 100;
         long result = measurePerformance(StreamPerformanceExample::sumSequentialStream,loop);
         System.out.println("Time Taken to process sum in sequential: "
                 + result + "in msecs");

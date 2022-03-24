@@ -3,7 +3,6 @@ package com.modernjava.streams;
 import com.modernjava.funcprogramming.Instructor;
 import com.modernjava.funcprogramming.Instructors;
 
-import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 

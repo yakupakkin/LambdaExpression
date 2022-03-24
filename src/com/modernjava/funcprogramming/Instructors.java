@@ -12,11 +12,11 @@ public class Instructors {
         Instructor instructor2 = new Instructor("Jenny", 5, "Engineer"
                 , "F", false, Arrays.asList("Multi-Threaded Programming", "CI/CD", "Unit Testing"));
 
-        Instructor instructor3 = new Instructor("Gene", 6, "Manager"
-                , "M", false, Arrays.asList("C++ Programming", "C Programming", "React Native"));
+        Instructor instructor3 = new Instructor("Gene", 5, "Manager"
+                , "F", false, Arrays.asList("C++ Programming", "C Programming", "React Native"));
 
         Instructor instructor4 = new Instructor("Anthony", 15, "Senior Developer"
-                , "M", true, Arrays.asList("Java Programming", "Angular Programming", "React Native"));
+                , "M", false, Arrays.asList("Java Programming", "Angular Programming", "React Native"));
 
         Instructor instructor5 = new Instructor("Syed", 15, "Principal Engineer"
                 , "M", true, Arrays.asList("Java Programming", "Java Multi-Threaded Programming", "React Native"));

@@ -3,8 +3,7 @@ package com.modernjava.java9improvements;
 public class MultiLineTextBlockExample {
     public static void main(String[] args) {
         String st1 = """
-                    Hello World
-                    Using 
+                    Hello World Using 
                     text blocks !""";
 
         System.out.println("st1 = " + st1);

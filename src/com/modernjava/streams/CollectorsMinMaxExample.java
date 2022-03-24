@@ -19,7 +19,7 @@ public class CollectorsMinMaxExample {
         instructor = Instructors.getAll().stream()
                 .min(Comparator.comparing(Instructor::getYearsOfExperience));
         System.out.println("instructor = " + instructor);
-
+        System.out.println("---------------");
        instructor = Instructors.getAll().stream()
                 .collect(Collectors.maxBy(Comparator.comparing(
                         Instructor::getYearsOfExperience)));

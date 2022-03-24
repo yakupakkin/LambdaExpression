@@ -11,7 +11,7 @@ public class DateModifyExample {
         localDate= localDate.plusDays(4);
         System.out.println("localDate = " + localDate);
         System.out.println("localDate.plusDays(4) = " + localDate.plusDays(4));
-        localDate = localDate.now(); 
+        localDate = LocalDate.now(); 
         System.out.println("localDate = " + localDate);
         System.out.println("localDate.plusMonths(2) = " + localDate.plusMonths(2));
         System.out.println("localDate.plusYears(2) = " + localDate.plusYears(2));

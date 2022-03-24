@@ -3,7 +3,6 @@ package com.modernjava.javaimprovements;
 import com.modernjava.funcprogramming.Instructor;
 import com.modernjava.funcprogramming.Instructors;
 
-import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Predicate;
 

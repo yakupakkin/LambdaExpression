@@ -9,6 +9,8 @@ public class PredicateExample2 {
         Predicate<Instructor> p1 = (i) -> i.isOnlineCourses()==true;
         //instructor experience is >10 years
         Predicate<Instructor> p2 = (i) -> i.getYearsOfExperience() >10;
+      //instructor experience is >10 years
+        Predicate<Instructor> p3 = (i) -> i.getYearsOfExperience() >10 && i.isOnlineCourses()==true;
 
         List<Instructor> instructors = Instructors.getAll();
         instructors.forEach(instructor -> {
@@ -20,10 +22,15 @@ public class PredicateExample2 {
         // is instructor teaches online and exprience is > 10 years
         System.out.println("---------------------");
         instructors.forEach(instructor ->  {
-            if(p1.and(p2).test(instructor)){
+            if(p2.test(instructor)){
                 System.out.println(instructor);
             }
         });
-
+        System.out.println("---------------------");
+        instructors.forEach(instructor -> {
+            if (p3.test(instructor)){
+                System.out.println(instructor);
+            }
+        });
     }
 }

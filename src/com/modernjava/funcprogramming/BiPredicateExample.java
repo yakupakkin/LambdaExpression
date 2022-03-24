@@ -3,7 +3,6 @@ package com.modernjava.funcprogramming;
 import java.util.List;
 import java.util.function.BiConsumer;
 import java.util.function.BiPredicate;
-import java.util.function.Predicate;
 
 public class BiPredicateExample {
     public static void main(String[] args) {

@@ -20,7 +20,7 @@ public class StreamReduceExample {
         System.out.println(results);
         System.out.println(results1);
 
-        Optional result2 = numbers.stream().reduce((a, b) -> a + b);
+        Optional<Integer> result2 = numbers.stream().reduce((a, b) -> a + b);
         System.out.println("--------");
         if(result2.isPresent())
             System.out.println(result2.get());
